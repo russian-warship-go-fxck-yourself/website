@@ -18,7 +18,12 @@
 
     targetsLogElement.innerHTML = '';
     targetsLogElement.innerHTML = stats.targetsLogs.map((target) =>
-      `<p><span class="tag is-success">+</span> ${target}</p>`
+      `
+        <p class="is-flex is-align-items-center">
+            <img class="log-img mr-2" src="./img/check-solid.svg" alt="success">
+            ${target}
+        </p>
+      `
     ).join('');
 
     clientsCountElement.innerHTML = stats.clientsCount;
