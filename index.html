@@ -7,29 +7,134 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
     <title>Russian Warship Go Fxck Yourself</title>
+
+    <style>
+        .flag-img {
+            width: 25px;
+            height: 25px;
+        }
+    </style>
 </head>
 <body>
 <div class="container">
     <section class="section">
-        <div class="columns is-centered">
-            <div class="column is-half">
-                <h2 class="title is-size-2">Russian Warship Go Fxck Yourself</h2>
+        <div class="columns">
+            <div class="column is-full has-text-centered">
+                <h1 class="title is-size-1">Russian Warship Go Fxck Yourself</h1>
             </div>
         </div>
     </section>
 
     <section class="section">
-        <div class="columns is-centered">
-            <div class="column is-half">
+        <div class="columns">
+            <div class="column is-half pl-6 pr-6">
                 <div class="columns">
-                    <div class="column is-half">
-                        <h2 class="title is-size-2">Stats</h2>
-                        <div class="is-flex is-justify-content-space-between">
-                            <strong>Attacking:</strong> <span id="connections-amount">&nbsp;0</span>
+                    <div class="column">
+                        <p class="has-text-black is-size-5">Participating</p>
+                        <p class="has-text-dark is-size-6">Учасники</p>
+                        <p class="has-text-dark is-size-6">Участвуют</p>
+
+                    </div>
+                    <div class="column has-text-right">
+                        <span class="tag is-success is-size-6" id="connections-amount">0</span>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="columns">
+                    <div class="column">
+                        <p class="has-text-black is-size-5">Watching</p>
+                        <p class="has-text-dark is-size-6">Наблюдают</p>
+                        <p class="has-text-dark is-size-6">Спостерігають</p>
+                    </div>
+                    <div class="column has-text-right">
+                        <span class="tag is-info is-size-6" id="web-visitors">1</span>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="columns">
+                    <div class="column">
+                        <p class="has-text-black is-size-5">Server status</p>
+                    </div>
+                    <div class="column has-text-right" id="server-status">
+                        <span class="tag is-primary is-size-6">On</span>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="columns">
+                    <div class="column is-full">
+                        <div class="block">
+                            <p class="has-text-black is-size-5">Latest updates</p>
+                            <p class="has-text-dark is-size-6">Свежие обновления</p>
+                            <p class="has-text-dark is-size-6">Останнє оновлення</p>
                         </div>
-                        <div class="is-flex is-justify-content-space-between">
-                            <strong>Website visitors:</strong> <span id="web-visitors"></span>
+                        <div class="block">
+                            <div class="content" id="targets-logs"></div>
                         </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column is-half">
+                <div class="block">
+                    <div class="content">
+                        <p>
+                            <img src="./img/ukraine.png" alt="ukraine-flag" class="flag-img mr-3">
+                            Ми – група людей, котрі хочуть очистити Інтернет від кремлівської пропаганди.
+                            Ми навантажуватимемо кремлівські сайти і не даватимемо їм повернутися онлайн,
+                            щоб вони не змогли отруювати Інтернет своєю пропагандою. Кожен непрацюючий сайт – це пролом
+                            у серверах Кремля. Наше завдання – надати кожному охочому можливість приєднатися до війни
+                            проти пропагандистської машини Кремля. Нижче можна стежити за ходом атаки та знайти докладну інструкцію.
+                        </p>
+
+                        <p>
+                            <img src="./img/united-kingdom.png" alt="united-kingdom-flag" class="flag-img mr-3">
+                            We are a group of people who want to purge the Internet of Kremlin propaganda.
+                            We will load the Kremlin sites and prevent them from returning online so that they
+                            cannot poison the Internet with their propaganda. Every idle site is a hole in the Kremlin's
+                            servers. Our task is to provide everyone with the opportunity to join the war against the
+                            propaganda machine of the Kremlin. Below you can follow the progress of the attack and find detailed instructions.
+                        </p>
+
+                        <p>
+                            <img src="./img/russia.png" alt="russia-flag" class="flag-img mr-3">
+                            Мы – группа людей, которые хотят очистить Интернет от кремлёвской пропаганды.
+                            Мы будем нагружать кремлёвские сайты и не давать им вернуться онлайн, чтобы они не смогли отравлять
+                            Интернет своей пропагандой. Каждый неработающий сайт – это брешь в серверах Кремля.
+                            Наша задача – предоставить каждому желающему возможность присоединиться к войне против
+                            пропагандисткой машины Кремля. Ниже можно следить за ходом атаки и найти подробную инструкцию.
+                        </p>
+
+                        <p>
+                            <img src="./img/germany.png" alt="germany-flag" class="flag-img mr-3">
+                            Wir sind eine Gruppe von Leuten, die das Internet von Kreml-Propaganda befreien wollen.
+                            Wir werden die Kreml-Sites laden und verhindern, dass sie wieder online gehen, damit sie
+                            das Internet nicht mit ihrer Propaganda vergiften können. Jede kaputte Site ist ein Riss in
+                            den Servern des Kremls. Unsere Aufgabe ist es, jedem die Möglichkeit zu geben, sich an dem Krieg
+                            gegen die Propagandamaschine des Kremls beteiligen. Unten können Sie den Fortschritt des Angriffs
+                            verfolgen und detaillierte Anweisungen finden.
+                        </p>
+
+                        <p>
+                            <img src="./img/poland.png" alt="poland-flag" class="flag-img mr-3">
+                            Jesteśmy grupą ludzi, którzy chcą oczyścić Internet z propagandy Kremla.
+                            Załadujemy serwisy Kremla i uniemożliwimy im powrót do sieci, aby nie zatruwały Internetu
+                            swoją propagandą. Każdy bezczynny serwis to dziura w serwerach Kremla. Naszym zadaniem jest
+                            zapewnienie wszystkim możliwości włączenia się do wojny z kremlowską machiną propagandową.
+                            Poniżej możesz śledzić postępy ataku i znaleźć szczegółowe instrukcje.
+                        </p>
+
+                        <p>
+                            <img src="./img/italy.png" alt="italy-flag" class="flag-img mr-3">
+                            Siamo un gruppo che vuole pulire la propaganda su internet dal Cremlino. Caricheremo i loro siti
+                            prevenendoli dal tornare online così da non avvelenare la rete con la loro propaganda. Ogni sito
+                            inattivo e un buco nei server del Cremlino. Il nostro compito  è di dare l’opportunità di unirsi
+                            contro la propaganda russa. Sotto puoi seguire i progressi di questi attacchi e trovare istruzioni dettagliate.
+                        </p>
                     </div>
                 </div>
             </div>
